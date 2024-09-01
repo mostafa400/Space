@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import data from "../data.json";
+import data from "../../public/assets/data.json";
 
 function Destination() {
   const [currentDestination, setCurrentDestination] = useState("Moon");
