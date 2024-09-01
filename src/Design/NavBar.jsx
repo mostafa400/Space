@@ -11,11 +11,7 @@ const Navbar = () => {
           to="/"
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
-          <img
-            src="./public/assets/shared/logo.svg"
-            className="h-10 w-10"
-            alt="Logo"
-          />
+          <img src="assets/shared/logo.svg" className="h-10 w-10" alt="Logo" />
           <span className="self-center text-2xl font-semibold whitespace-nowrap text-white"></span>
         </Link>
         <button
