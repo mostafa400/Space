@@ -8,8 +8,8 @@ overflow-y-auto
    md:flex md:flex-col md:items-center 
 
 
-    bg-[url('./src/assets/home/background-home-mobile.jpg')]
-    md:bg-[url('./src/assets/home/background-home-tablet.jpg')]
+    bg-[url('./assets/home/background-home-mobile.jpg')]
+    md:bg-[url('./assets/home/background-home-tablet.jpg')]
     lg:bg-[url('./assets/home/background-home-desktop.jpg')]
 
     "

@@ -12,9 +12,9 @@ function Destination() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col pb-16
-                 bg-[url('./src/assets/destination/background-destination-mobile.jpg')]
-                 md:bg-[url('./src/assets/destination/background-destination-tablet.jpg')]
-                 lg:bg-[url('./src/assets/destination/background-destination-desktop.jpg')]"
+                 bg-[url('./public/assets/destination/background-destination-mobile.jpg')]
+                 md:bg-[url('./public/assets/destination/background-destination-tablet.jpg')]
+                 lg:bg-[url('./public/assets/destination/background-destination-desktop.jpg')]"
     >
       <div className="container mx-auto pl-20 mt-20 lg:static md:realtive ">
         <h1 className="text-white text-3xl uppercase lg:transform-none lg:left-80 md:text-xl md:absolute md:left-10  md:top-32">
