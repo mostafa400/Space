@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../data.json";
+import data from "../../public/assets/data.json";
 
 function Tech() {
   const [currentTech, setCurrentTech] = useState("Launch vehicle");
@@ -10,15 +10,15 @@ function Tech() {
 
   const getImageUrl = (name) => {
     const formattedName = name.toLowerCase().replace(/\s+/g, "-");
-    return `./src/assets/technology/image-${formattedName}-portrait.jpg`;
+    return `./assets/technology/image-${formattedName}-portrait.jpg`;
   };
 
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col overflow-hidden
-    bg-[url('./src/assets/technology/background-technology-mobile.jpg')]
-    md:bg-[url('./src/assets/technology/background-technology-tablet.jpg')]
-    lg:bg-[url('./src/assets/technology/background-technology-desktop.jpg')]"
+    bg-[url('/assets/technology/background-technology-mobile.jpg')]
+    md:bg-[url('/assets/technology/background-technology-tablet.jpg')]
+    lg:bg-[url('/assets/technology/background-technology-desktop.jpg')]"
     >
       <h1 className="text-white text-3xl lg:ml-64 pl-20 mt-20">
         01 Space Launch

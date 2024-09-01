@@ -12,9 +12,9 @@ function Destination() {
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col pb-16
-                 bg-[url('./assets/destination/background-destination-mobile.jpg')]
-                 md:bg-[url('./assets/destination/background-destination-tablet.jpg')]
-                 lg:bg-[url('./assets/destination/background-destination-desktop.jpg')]"
+                 bg-[url('/assets/destination/background-destination-mobile.jpg')]
+                 md:bg-[url('/assets/destination/background-destination-tablet.jpg')]
+                 lg:bg-[url('/assets/destination/background-destination-desktop.jpg')]"
     >
       <div className="container mx-auto pl-20 mt-20 lg:static md:realtive ">
         <h1 className="text-white text-3xl uppercase lg:transform-none lg:left-80 md:text-xl md:absolute md:left-10  md:top-32">
@@ -27,7 +27,7 @@ function Destination() {
         >
           <div className=" md:flex md:flex-col md:gap-5 md:items-center md:mt-20 md:mb-10">
             <img
-              src={`./src/assets/destination/image-${currentDestinationData.name}.png`}
+              src={`./public/assets/destination/image-${currentDestinationData.name}.png`}
               alt={currentDestinationData.name}
               className="lg:w-3/4 lg:h-3/4 
               md:w-2/5 md:h-2/5"

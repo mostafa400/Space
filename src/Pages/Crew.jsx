@@ -1,5 +1,5 @@
 import { useState } from "react";
-import data from "../data.json";
+import data from "../../public/assets/data.json";
 
 function Crew() {
   const [currentCrew, setCurrentCrew] = useState("Douglas Hurley");
@@ -9,18 +9,18 @@ function Crew() {
 
   const getImageUrl = (name) => {
     const formattedName = name.toLowerCase().replace(/\s+/g, "-");
-    return `./src/assets/crew/image-${formattedName}.webp`;
+    return `/assets/crew/image-${formattedName}.webp`;
   };
 
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col pb-16
-    bg-[url('./src/assets/crew/background-crew-mobile.jpg')]
-    md:bg-[url('./src/assets/crew/background-crew-tablet.jpg')]
-    lg:bg-[url('./src/assets/crew/background-crew-desktop.jpg')]"
+    bg-[url('/assets/crew/background-crew-mobile.jpg')]
+    md:bg-[url('/assets/crew/background-crew-tablet.jpg')]
+    lg:bg-[url('/assets/crew/background-crew-desktop.jpg')]"
     >
       <h1 className="text-white text-3xl lg:ml-64 lg:pl-20 mt-20 md:ml-0 md:pl-0">
-        02 Meet Your Crew{" "}
+        02 Meet Your Crew
       </h1>
       <div className=" lg:ml-64 lg:pl-20 md:pl-0  md:flex md:flex-col md:items-center md:justify-center md:h-full ">
         <div className="lg:grid lg:grid-cols-2 lg:gap-4  md:flex md:flex-col md:items-center ">
