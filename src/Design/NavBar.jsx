@@ -12,7 +12,7 @@ const Navbar = () => {
           className="flex items-center space-x-3 rtl:space-x-reverse"
         >
           <img
-            src="./src/assets/shared/logo.svg"
+            src="./public/assets/shared/logo.svg"
             className="h-10 w-10"
             alt="Logo"
           />
