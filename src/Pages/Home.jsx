@@ -10,7 +10,7 @@ overflow-y-auto
 
     bg-[url('./src/assets/home/background-home-mobile.jpg')]
     md:bg-[url('./src/assets/home/background-home-tablet.jpg')]
-    lg:bg-[url('./src/assets/home/background-home-desktop.jpg')]
+    lg:bg-[url('./assets/home/background-home-desktop.jpg')]
 
     "
     >
