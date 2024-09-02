@@ -14,7 +14,7 @@ overflow-y-auto
 
     "
     >
-      <div className="container lg:mx-auto px-4 lg:mb-44  ">
+      <div className="container lg:mx-auto px-4 lg:mb-44 ">
         <div
           className="lg:grid  lg:grid-cols-2 lg:gap-48  lg:justify-items-center lg:ml-20 
         md:flex md:flex-col md:items-center 
@@ -27,11 +27,11 @@ overflow-y-auto
               So, you want to travel to
             </p>
 
-            <h1 className="text-9xl uppercase tracking-widest md:mb-3 ">
+            <h1 className="lg:text-9xl md:text-8xl md:mb-3 text-6xl uppercase tracking-widest ">
               Space
             </h1>
             <p>
-              <p className="tracking-widest text-gray-200 md:mb-20">
+              <p className=" tracking-widest text-gray-200 md:mb-20">
                 Let’s face it; if you want to go to space, you might as well
                 genuinely go to outer space and not hover kind of on the edge of
                 it. Well sit back, and relax because we’ll give you a truly out
@@ -39,9 +39,9 @@ overflow-y-auto
               </p>
             </p>
           </div>
-          <div className="md:mt-auto">
+          <div className="">
             <Link to="/destination">
-              <button className="bg-white text-black text-4xl rounded-full md:w-72 md:h-72 w-64 h-64 hover:ring-4 hover:ring-white/50 transition-all duration-300 ease-in-out  ">
+              <button className="bg-white text-black text-4xl rounded-full md:w-72 md:h-72 sm:w-64 sm:h-46 w-64 h-64 hover:ring-4 hover:ring-white/50 transition-all duration-300 ease-in-out  ">
                 Explore
               </button>
             </Link>

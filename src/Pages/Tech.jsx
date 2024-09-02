@@ -15,16 +15,19 @@ function Tech() {
 
   return (
     <div
-      className="min-h-screen bg-cover bg-center flex flex-col overflow-hidden
+      className="min-h-screen bg-cover bg-center flex flex-col
     bg-[url('/assets/technology/background-technology-mobile.jpg')]
     md:bg-[url('/assets/technology/background-technology-tablet.jpg')]
     lg:bg-[url('/assets/technology/background-technology-desktop.jpg')]"
     >
-      <h1 className="text-white text-3xl lg:ml-64 pl-20 mt-20">
+      <h1 className="text-white text-3xl lg:ml-64 pl-20 mt-20 ">
         01 Space Launch
       </h1>
-      <div className="lg:flex lg:flex-row lg:ml-44 lg:mt-36 lg:gap-10  md:flex md:flex-col ">
-        <div className=" flex flex-col ml-64 gap-y-10  ">
+      <div
+        className="flex ml-20 mt-32 lg:flex-row lg:gap-10 lg:items-start
+       flex-col gap-7 items-center "
+      >
+        <div className=" flex lg:flex-col lg:ml-48 gap-y-10 md:flex-row gap-x-10  ">
           {techs.map((tech, index) => (
             <button
               key={tech.name}
@@ -37,16 +40,19 @@ function Tech() {
         </div>
 
         <div>
-          <div className="text-white lg:flex lg:flex-col lg:gap-y-6 lg:justify-self-center lg:w-full">
-            <h2 className="text-5xl">The Termonlongy ...</h2>
-            <h1 className="text-7xl">{currentTechData.name}</h1>
-            <p className="w-1/2">{currentTechData.description}</p>
+          <div
+            className="text-white flex flex-col items-center lg:gap-y-6 lg:justify-self-center lg:w-full lg:items-start
+           "
+          >
+            <h2 className="text-3xl">The Termonlongy ...</h2>
+            <h1 className="text-7xl mb-5">{currentTechData.name}</h1>
+            <p className="w-3/4 opacity-80">{currentTechData.description}</p>
           </div>
         </div>
 
-        <div className=" w-full ">
+        <div className=" w-3/4 ">
           <img
-            className="w-full h-full "
+            className="w-full h-auto object-cover "
             src={getImageUrl(currentTechData.name)}
           ></img>
         </div>
