@@ -9,6 +9,11 @@ function Destination() {
     (dest) => dest.name === currentDestination
   );
 
+  const getImageUrl = (name) => {
+    const formattedName = name.toLowerCase().replace(/\s+/g, "-");
+    return `/assets/destination/image-${formattedName}.webp`;
+  };
+
   return (
     <div
       className="min-h-screen bg-cover bg-center flex flex-col pb-16
@@ -28,7 +33,7 @@ function Destination() {
         >
           <div className=" md:flex md:flex-col md:gap-5 md:items-center md:mt-20 md:mb-10">
             <img
-              src={`./public/assets/destination/image-${currentDestinationData.name}.webp`}
+              src={getImageUrl(currentDestinationData.name)}
               alt={currentDestinationData.name}
               className="lg:w-3/4 lg:h-3/4 
               md:w-4/5 md:h-4/5"
