@@ -41,7 +41,7 @@ function Tech() {
 
         <div>
           <div
-            className="text-white flex flex-col items-center lg:gap-y-6 lg:justify-self-center lg:w-full lg:items-start
+            className="text-white flex flex-col  lg:gap-y-6 lg:justify-self-center lg:w-full lg:items-start
            "
           >
             <h2 className="text-3xl">The Termonlongy ...</h2>

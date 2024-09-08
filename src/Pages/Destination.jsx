@@ -41,11 +41,11 @@ function Destination() {
           </div>
 
           <div
-            className="text-white lg:flex  lg:gap-10  lg:self-start lg:mt-10 lg:items-start
+            className="text-white  lg:flex  lg:gap-10  lg:self-start lg:mt-10 lg:items-start
           md:flex md:flex-col md:items-center md:text-center 
           "
           >
-            <div className="flex gap-10 lg:text-2xl mb-10 mt-10 text-3xl justify-center">
+            <div className="flex gap-5  lg:text-2xl mb-10 mt-10 text-3xl justify-center">
               {destinations.map((dest) => (
                 <button
                   key={dest.name}
